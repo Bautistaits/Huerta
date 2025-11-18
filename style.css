@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #4a7c59;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+  }
+
+  h1 {
+    color: #2d5016;
+    margin-top: 0;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #datos {
+    background: #8fbc8f;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    line-height: 1.8;
+    color: #1a1a1a;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  #imagen {
+    margin-top: 30px;
+    font-size: 100px;
+    animation: aparecer 0.5s ease-in-out;
+  }
+
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+/*profe esto busque para que se mas dinamico pero no lo vimos. 
+Hace que El emoji empieza invisible y pequeño, y en medio segundo crece y se hace visible de forma suave. */
+  }
+
+  .dato {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+  }
+  
