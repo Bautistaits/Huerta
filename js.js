@@ -34,7 +34,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebas
         } else if (huerta.humedadSuelo < 30) {
           imagen.innerHTML = "🏜️";
         } else if (huerta.humedadSuelo >= 30 && huerta.humedadSuelo <= 70) {
-          imagen.innerHTML = "🌻";
+          imagen.innerHTML = "🌿";
         } else {
           imagen.innerHTML = "💧";
         }
